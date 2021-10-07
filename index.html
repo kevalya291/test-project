@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food website</title>
+    <style>
+nav{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 250px;
+}
+
+.as{
+    list-style: none;
+    padding-bottom: 12px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+
+li{
+    list-style: none;
+    padding-bottom: 12px;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.btn{
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(243, 66, 66);
+    padding-bottom: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    font-display: center;
+    width: 135px;
+    margin-left: 35px;
+    margin-top: 15px;  
+}
+
+
+.left{
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 570px;
+    top: 37px;
+    font-size: 40px;
+    width: 645px;
+
+}
+
+.right{
+    /* border:2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    right: 95px;
+    top: 85px;
+    font-size: 17px;
+    width: 255px;
+}
+
+.container{
+
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 80%;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 390px;
+}
+
+
+.box{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:white;
+    margin: 5px;
+    padding: 5px;
+    width: 175px;
+    height: 215px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 7px 13px 113px rgb(197, 190, 190);
+}
+
+.box img{
+    border: 2px solid white;
+    border-radius: 100px;
+    margin: 2px;
+    height: 150px;
+    width: 150px;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>
+            <ul>
+                <as>    
+                    Lorem <br>
+                    Ipsum
+                </as>
+            </ul>    
+        </h1>
+        <ul>
+            <li><del style="color: red">About</del></li>
+            <li>Services</li>
+            <li>Cuisine</li>
+            <li>Gallery</li>
+            <li>Contect</li>
+            <li>Book</li>
+        </ul>
+        <button class="btn">Cart</button>
+    </nav>
+    <header class="header">
+        <div class="left">
+
+            <h1>What are you having for Lunch?</h1>
+        </div>
+<div class="right">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique facere exercitationem magni animi sint Eos vero.
+    </p>
+</div>
+    </header>
+    <div class="container">
+<div class="box" id="box-1">
+    <img src="img/1tacos.jpg" alt="">
+    Maxican Taco
+</div>
+<div class="box" id="box-2">
+    <img src="img/2pizza.jpg" alt="">
+    Farmhouse Pizza
+</div>
+<div class="box" id="box-3">
+    <img src="img/3burger.jpg" alt="">
+    Veg.Burger
+</div>
+<div class="box" id="box-4">
+    <img src="img/4nachos.jpg" alt="">
+    Loaded Nachos
+</div>
+<div class="box" id="box-5">
+    <img src="img/5noodle.jpg" alt="">
+    Hakka Noodles
+</div>
+    </div>
+</body>
+</html>
+
+
+
+
